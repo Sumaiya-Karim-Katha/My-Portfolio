@@ -1,0 +1,100 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #0A192F;
+  
+  }
+  .navbar-cute-border {
+    border: 5px solid #fff;
+    border-radius: 15px;
+    background-color: #FFD6DA; /* Inside color */
+  }
+
+  .navbar .navbar-nav .nav-link {
+    color: #313140; /* Text color */
+    cursor: pointer;
+    margin-right: 1em !important;
+  }
+
+  .navbar .navbar-nav .nav-link:hover {
+    color: yellow;
+  }
+
+  .navbar .navbar-brand {
+    color: #313140; /* Text color for the brand */
+    cursor: pointer;
+  }
+
+  .navbar-cute-border .navbar-brand:hover {
+    color: yellow;
+  }
+
+  .navbar-cute-border .navbar-collapse {
+    justify-content: flex-end;
+  }
+
+.features {
+	margin: 4em auto;
+	padding: 1em;
+	position: relative;
+}
+.feature-title {
+	color: #333;
+	font-size: 1.3rem;
+	font-weight: 700;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+.features img {
+	-webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	margin-bottom: 16px;
+}
+
+.border-CV {
+  padding: 10px;
+  background-color: #F875AA;
+  border-radius: 5px;
+}
+
+
+.text-center {
+  text-align: center;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.image-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  opacity: 0; /* initially hidden */
+  transition: opacity 0.3s ease-in-out;
+}
+
+.hover-text {
+  color: yellow;
+  font-family: cursive;
+}
+
+.hover-image {
+  transition: filter 0.3s ease-in-out;
+}
+
+.col-lg-6:hover .image-text {
+  opacity: 1; /* show on hover */
+}
+
+.col-lg-6:hover .hover-image {
+  filter: brightness(80%); /* darken the image on hover */
+}
+
+
+
