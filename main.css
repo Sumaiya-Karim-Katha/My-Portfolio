@@ -1,64 +1,61 @@
-
 body {
-    padding: 0;
-    margin: 0;
-    background-color: #0A192F;
-  
-  }
-  .navbar-cute-border {
-    border: 5px solid #fff;
-    border-radius: 15px;
-    background-color: #FFD6DA; /* Inside color */
-  }
+  padding: 0;
+  margin: 0;
+  background-color: #0a192f;
+}
+.navbar-cute-border {
+  border: 5px solid #fff;
+  border-radius: 15px;
+  background-color: #ffd6da; /* Inside color */
+}
 
-  .navbar .navbar-nav .nav-link {
-    color: #313140; /* Text color */
-    cursor: pointer;
-    margin-right: 1em !important;
-  }
+.navbar .navbar-nav .nav-link {
+  color: #313140;
+  cursor: pointer;
+  margin-right: 1em !important;
+}
 
-  .navbar .navbar-nav .nav-link:hover {
-    color: yellow;
-  }
+.navbar .navbar-nav .nav-link:hover {
+  color: yellow;
+}
 
-  .navbar .navbar-brand {
-    color: #313140; /* Text color for the brand */
-    cursor: pointer;
-  }
+.navbar .navbar-brand {
+  color: #313140; /* Text color for the brand */
+  cursor: pointer;
+}
 
-  .navbar-cute-border .navbar-brand:hover {
-    color: yellow;
-  }
+.navbar-cute-border .navbar-brand:hover {
+  color: yellow;
+}
 
-  .navbar-cute-border .navbar-collapse {
-    justify-content: flex-end;
-  }
+.navbar-cute-border .navbar-collapse {
+  justify-content: flex-end;
+}
 
 .features {
-	margin: 4em auto;
-	padding: 1em;
-	position: relative;
+  margin: 4em auto;
+  padding: 1em;
+  position: relative;
 }
 .feature-title {
-	color: #333;
-	font-size: 1.3rem;
-	font-weight: 700;
-	margin-bottom: 20px;
-	text-transform: uppercase;
+  color: #333;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: uppercase;
 }
 .features img {
-	-webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
-	-moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
-	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
-	margin-bottom: 16px;
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  margin-bottom: 16px;
 }
 
 .border-CV {
   padding: 10px;
-  background-color: #F875AA;
+  background-color: #f875aa;
   border-radius: 5px;
 }
-
 
 .text-center {
   text-align: center;
@@ -95,6 +92,3 @@ body {
 .col-lg-6:hover .hover-image {
   filter: brightness(80%); /* darken the image on hover */
 }
-
-
-
